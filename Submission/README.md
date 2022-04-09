@@ -1,4 +1,4 @@
-# Stock Analysis
+# Green Stock Analysis
 
 ## Overview of Project
 
@@ -22,7 +22,7 @@ By refactoring the code to avoid nested loops there was a significant improvemen
 :-------------------------:|:-------------------------:
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)   |  ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
-Added one more approach without having to define the list of stocks. Using these approaches built a test process to compare performance. Results are in the below table. Code and Sheeets available in the excel - [VBA_Challenge](VBA_Challenge.xlsx)
+Added one more approach without having to define the list of stocks. Using these approaches built a test process to compare performance. Results are in the below table. Code and Sheets available in the excel - [VBA_Challenge](VBA_Challenge.xlsx)
 
 ![PerformanceResults](Resources/PerformanceResults.png)
 
@@ -32,5 +32,23 @@ Added one more approach without having to define the list of stocks. Using these
 
 ### Advantages and Disadvantages of refactoring code
 
+By refactoring code it helps in many different ways like
+* Making it more efficient
+* Making code more readable
+* Simplify the logic as possible
+* Identify better error handling 
+* Use less CPU or infrastructure.
+
+The key disadvantage with refactoring will be the time required for it as it will be a continous process. Time spent for refactoring should be taken based on the requirement and need ensuring it gives a benefit for the time spent for it. 
+
+In certain cases refactoring to make the code efficient can increase the overall complexity of the program like using single threaded program versus a multi thread program.
+
 ### Advantages and Disadvantages of refactoring Stock Analysis
 
+In the green stock analysis by refactoring the code we were able to improve the performance of the process by around 60%. Incases where we have to analyze a large number of stocks this refactoring will help in a very huge way. This was done by removing a nested loop and tracking all the details in an array.
+
+By refactoring this code additional effort was needed, along with it arrays had to used requiring handling of additional variables.
+
+A new approach was tried to not have hard coded ticker values to help in considering any stock details. Though this gave additional flexibility the performance reduced by a bit.
+
+Overall refactoring is a very critical process and should be considered based on the need of the project to help in improving its overall efficiency.
