@@ -14,10 +14,15 @@ Analysis Results 2017      |  Analysis Results 2018
 :-------------------------:|:-------------------------:
 ![Analysis_Results_2017](Resources/Analysis_Results_2017.png)   |  ![Analysis_Results_2018](Resources/Analysis_Results_2018.png)
   
+### Execution Time
 
-![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
+By refactoring the code to avoid nested loops there was a significant improvement in performance. This can really help in analysing a larger number of stocks for future cases.
 
-![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
+2017 Runtime after Refactoring      |  2018 Runtime after Refactoring 
+:-------------------------:|:-------------------------:
+![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)   |  ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
+
+Added one more approach without having to define the list of stocks. Using these approaches built a test process to compare performance. Results are in the below table. Code and Sheeets available in the excel - [VBA_Challenge](VBA_Challenge.xlsx)
 
 ![PerformanceResults](Resources/PerformanceResults.png)
 
@@ -29,4 +34,3 @@ Analysis Results 2017      |  Analysis Results 2018
 
 ### Advantages and Disadvantages of refactoring Stock Analysis
 
-[VBA_Challenge](VBA_Challenge.xlsx)
